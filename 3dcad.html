@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>3D Design | Jeff's Portfolio</title>
+
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap -->
+    	<link href="css/bootstrap.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+    </head>
+
+	<body>
+
+		<!-- Navigation -->
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        			<span class="sr-only">Toggle navigation</span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	      			</button>
+	      			<a class="navbar-brand" href="index.html">
+	      				<img id="brand-image" class="img-circle" src="http://i.imgur.com/YfDEWhb.jpg" alt="Profile Picture" />
+	      			</a>
+	    		</div>
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      			<ul class="nav navbar-nav">
+	        			<li><a href="index.html">Home</a></li>
+	        			<li><a href="about.html">About</a></li>
+	        			<li><a href="webdev.html">Web Dev</a></li>
+	        			<li class="active"><a href="#">3D/CAD</a></li>
+	      			</ul>
+	    		</div>
+			</div>
+		</nav>
+
+		<!--  Main  -->
+
+  		<section class="container">
+  			<header class="page-header text-center">
+  				<h1>3D Projects</h1>
+  			</header>
+  			<section class="row">
+  				<header class="col-md-12">
+		   			<h3>Maya</h3>
+		   		</header>
+	 		</section>
+			<section class="row">
+				<article class="col-md-4 text-justify">
+					<p>I've always had an interest in modeling. No, I don't mean taking a stroll down the cat walk. I used to play with Play-Doh as a kid and always wanted to take a pottery class.</p>
+					<p>The picture to the right is of a lamp I own. I started using Unreal Engine 4 and instantly felt the urge to try and recreate my apartment in the 3D Environment. Little did I know what a big task it would be. Each one of these models takes me a few hours, more if there are small intricate details. As I finish them, I will be posting them as well as images of my 3D environment in UE4.</p>
+				</article>
+				<section class="col-md-8">
+					<a href="http://i.imgur.com/CFNuIJH.jpg">
+						<img class="img-responsive img-rounded" src="img/tableLampSmall.jpg" sizes="(max-width: 992px) 100vw, (min-width: 993px) 66.66vw" srcset="img/tableLampSmall.jpg 270w, img/tableLampMedium.jpg 540w, img/tableLampLarge.jpg 1080w" alt="Main Work"/>
+					</a>
+				</section>
+			</section>
+			<section class="row" id="designs3d">
+				<section class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive img-rounded" src="img/hexagonTableSmall.jpg" sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw, (min-width: 993px) 33.33vw" srcset="img/hexagonTableSmall.jpg 270w, img/hexagonTableMedium.jpg 540w, img/hexagonTableLarge.jpg 1080w" alt="Side Table" data-toggle="modal" data-target="#SideTable"/>
+						<div class="caption">
+							<button type="button" class="btn btn-primary" role="button" data-toggle="modal" data-target="#SideTable">Info</button>
+						</div>
+					</div>
+				</section>
+				<section class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive img-rounded" src="img/retroDresserSmall.jpg" sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw, (min-width: 993px) 33.33vw" srcset="img/retroDresserSmall.jpg 270w, img/retroDresserMedium.jpg 540w, img/retroDresserLarge.jpg 1080w" alt="Dresser" data-toggle="modal" data-target="#Dresser"/>
+						<div class="caption">
+							<button type="button" class="btn btn-primary" role="button" data-toggle="modal" data-target="#Dresser">Info</button>
+						</div>
+					</div>
+				</section>
+				<section class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="img-responsive img-rounded" src="img/windowFrameSmall.jpg" sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw, (min-width: 993px) 33.33vw" srcset="img/windowFrameSmall.jpg 270w, img/windowFrameMedium.jpg 540w, img/windowFrameLarge.jpg 1080w" alt="Window Frame" data-toggle="modal" data-target="#WindowFrame"/>
+						<div class="caption">
+							<button type="button" class="btn btn-primary" role="button" data-toggle="modal" data-target="#WindowFrame">Info</button>
+						</div>
+					</div>
+				</section>
+			</section>
+		</section>
+
+		<!--  Modal: Side Table  -->
+
+		<div class="modal fade" id="SideTable" tabindex="-1" role="dialog" aria-labelledby="myModalSideTable">
+	  		<div class="modal-dialog">
+	    		<div class="modal-content">
+	      			<div class="modal-header">
+	        			<h4 class="modal-title" id="myModalSideTable">Side Table</h4>
+	      			</div>
+	      			<div class="modal-body text-justify">
+	      				<img class="img-responsive img-rounded" src="http://i.imgur.com/9E685dB.jpg" alt="Side Table" />
+	      				This side table was one of the first challenges I took on. I have several pieces of IKEA furniture, each a little complex but overall simple squares and clean lines. I had never tried to make a piece incorporating curves and complex unions like this. I learned some useful polygon techniques like boolean, extrude, difference.
+	      			</div>
+	      			<div class="modal-footer">
+	      				<a href="http://i.imgur.com/9E685dB.jpg" class="btn btn-primary" role="button">Imgur Hi-Res</a>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      			</div>
+	    		</div>
+	  		</div>
+		</div>
+
+		<!--  Modal: Dresser  -->
+
+		<div class="modal fade" id="Dresser" tabindex="-1" role="dialog" aria-labelledby="myModalDresser">
+	  		<div class="modal-dialog">
+	    		<div class="modal-content">
+	      			<div class="modal-header">
+	        			<h4 class="modal-title" id="myModalDresser">Dresser</h4>
+	      			</div>
+	      			<div class="modal-body text-justify">
+	      				<img class="img-responsive img-rounded" src="http://i.imgur.com/ZwUdMV1.jpg" alt="Dresser" />
+	      				I picked up this retro dresser from a small store near me. I like the lines and how the front of the drawers are slanted. This provided another challenge in Maya, as well as using columns for legs and some smoothing tools for the knobs. One final lesson I learned was how to designate different polygon surfaces to have different colors. When importing into Unreal Engine 4, I could apply different materials like wood and brass to where they should go. It really makes the model come alive.
+	      			</div>
+	      			<div class="modal-footer">
+	      				<a href="http://i.imgur.com/ZwUdMV1.jpg" class="btn btn-primary" role="button">Imgur Hi-Res</a>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      			</div>
+	    		</div>
+	  		</div>
+		</div>
+
+		<!--  Modal: Window Frame  -->
+
+		<div class="modal fade" id="WindowFrame" tabindex="-1" role="dialog" aria-labelledby="myModalWindowFrame">
+	  		<div class="modal-dialog">
+	    		<div class="modal-content">
+	      			<div class="modal-header">
+	        			<h4 class="modal-title" id="myModalWindowFrame">Window Frame</h4>
+	      			</div>
+	      			<div class="modal-body text-justify">
+	      				<img class="img-responsive img-rounded" src="http://i.imgur.com/UkFbEeE.jpg" alt="Window Frame" />
+	      				This is a very cool looking window frame in my apartment. It is terrible for my heating and cooling, but I like how it looks. There are several small components here, with the top immovable portion of the two side sections inset against the bottom movable parts. I started with one big square box and slowly worked my way to the center. Unreal Engine 4 allows me to place a glass pane in the negative spaces and it works perfectly with directional lights to provide dramatic lighting to an indoor space.
+	      			</div>
+	      			<div class="modal-footer">
+	      				<a href="http://i.imgur.com/UkFbEeE.jpg" class="btn btn-primary" role="button">Imgur Hi-Res</a>
+	        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      			</div>
+	    		</div>
+	  		</div>
+		</div>
+
+		<!--  Footer  -->
+
+		<hr>
+		<footer class="row">
+			<section class="col-md-12 text-center">
+				<a href="index.html">Home</a> |
+				<a href="https://www.udacity.com/nanodegree">Udacity Nanodegree</a>
+			</section>
+		</footer>
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+
+
+	</body>
+</html>

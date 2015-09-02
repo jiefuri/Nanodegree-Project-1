@@ -1,0 +1,36 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#brand-image {
+  height: 100%;
+}
+
+#Winston {
+  width: 100%;
+  border: 2px solid gray;
+}
+
+#designs3d {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-collapse {
+		text-align: center;
+	}
+	.navbar-nav {
+		display: inline-block;
+		float: none;
+	}
+}
+
+.progress-bar {
+	width: 16.66%;
+}
+
+footer {
+	margin-bottom: 20px;
+}
